@@ -1,0 +1,108 @@
+/* --- 1. Base Setup --- */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto:wght@400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+/* --- 2. FullPage Section Styling --- */
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  
+  /* --- THIS IS KEY for background images --- */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* --- 3. Content Styling --- */
+.content {
+  max-width: 900px;
+}
+
+.content h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 6rem; /* Slightly smaller for balance */
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+  color: #eee;
+}
+
+/* --- 4. CTA Button --- */
+.cta-button {
+  display: inline-block;
+  background-color: #E50914; /* Red button */
+  color: #fff;
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.cta-button:hover {
+  transform: scale(1.05);
+  background-color: #f61a26;
+}
+
+/* --- 5. Mascot Styling --- */
+.mascot {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Makes it circular */
+  margin: 0 auto 1.5rem auto;
+  border: 4px solid #fff;
+}
+
+
+/* --- 6. SECTION BACKGROUNDS --- 
+   This is where you will add your photos!
+*/
+
+.hero {
+  background-color: #000;
+  /* Example: background-image: url('path/to/your/hero-image.jpg'); */
+}
+
+.about-club {
+  background-color: #111;
+}
+
+.themes {
+  background-color: #001122;
+}
+
+.schedule {
+  background-color: #002211;
+}
+
+.prizes {
+  background-color: #220011;
+}
+
+.register {
+  background-color: #220000;
+}
